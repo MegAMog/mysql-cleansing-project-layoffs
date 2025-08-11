@@ -1,2 +1,4 @@
-# SQL-projects
-A collection of SQL projects showcasing data cleaning, business analytics, performance optimization, and data transformations. Includes real-world datasets and best SQL practices.
+# MySQL-project - cleansing layoffs data
+
+This is cleansing project based on https://www.youtube.com/watch?v=4UltKCnnnTA&t=168s.
+
