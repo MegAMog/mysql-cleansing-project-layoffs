@@ -5,8 +5,8 @@ services:
     image: mysql:latest
     container_name: my-sql-layoffs
     restart: always
-    volumes: # run all *.sql files in here on bootup in lexicographical order
-      - "./db-scripts:/docker-entrypoint-initdb.d"
+    volumes: # run init.sql files to set up db schema
+      - "./db-scripts/init.sql:/docker-entrypoint-initdb.d/init.sql"
     ports:
       - "3307:3306" #default for MySQL
     environment:
